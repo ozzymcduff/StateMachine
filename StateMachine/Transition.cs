@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StateMachine
+namespace StateMachines
 {
     public class Transition
     {
+        public bool Args { get; set; }
     }
 }

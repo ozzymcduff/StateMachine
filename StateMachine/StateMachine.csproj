@@ -7,7 +7,7 @@
     <ProjectGuid>{60F43B07-A6A2-46A8-9C24-0875AE828405}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StateMachine</RootNamespace>
+    <RootNamespace>StateMachines</RootNamespace>
     <AssemblyName>StateMachine</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Event.cs" />
+    <Compile Include="StateMachine.cs" />
     <Compile Include="Transition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

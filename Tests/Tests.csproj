@@ -13,7 +13,7 @@
     <AssemblyName>Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp>8fe458b3</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>a9a8e696</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,8 +54,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoShop.cs" />
+    <Compile Include="ModelBase.cs" />
     <Compile Include="TransitionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StateMachine\StateMachine.csproj">
